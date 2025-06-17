@@ -36,6 +36,7 @@ x_test = np.reshape(x_test, (len(x_test), 28, 28, 1))
 #Do not add comments here
 # train the autoencoder
 #test again
+#test again
 autoencoder.fit(x_train, x_train,
                 epochs=50,
                 batch_size=128,
